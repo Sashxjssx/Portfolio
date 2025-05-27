@@ -6,11 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="src/front/styles.css">
-    <title>Meu Portfólio</title>
+    <link rel="icon" type="image/x-icon" href="documents/assets/favicon01.ico">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Sashxjssx | Portfolio</title>
 </head>
 
 <body>
-    <h1>Em Desenvolvimento</h1>
+    <nav id="navbar">
+        <ul class="menu">
+            <li>
+            <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li>
+            <a href="#my-skills" class="nav-link">Skills</a>
+            </li>
+            <li>
+            <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li>
+            <a href="#certificates" class="nav-link">Certificates</a>
+            </li>
+            <li>
+            <a href="#contact-me" class="nav-link">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="infos" class="infos">
+        <img src="documents/assets/sitephoto.png" alt="Gabriel's Photo" class="profile-photo">
+        <h1 class="name">Gabriel "Sashxjssx" Lasaro</h1>
+        <p class="dev-info">Fullstack Developer</p>
+    </main>
+
+    <section id="about-me" class="about-me">
+        <h2 class="title">About Me</h2>
+
+        <div class="about-desc">
+            <p class="description">
+                Hello, I'm Gabriel. An 18 years old tech, economy, business, sports n' videogames passionate dev.
+            </p>
+            <p class="description">
+                I'm currently pursuing a degree in SAD (Systems Analysis and Development) on São José dos Campos' Fatec.
+            </p>
+            <p class="description">
+                I've been working with web development for a couple years, focusing on both backend but especially frontend techs.
+            </p>
+            <p class="description">
+                I always wanna learn something new, so I'm constantly seeking for new challenges and projects to work on.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="my-skills" class="my-skills">
+        <h2 class="title">My Skills</h2>
+
+        <div class="skill-cards">
+
+            <div class="skill-item">
+                <i class="devicon-vscode-plain skill-icon"></i>
+                <h3 class="skill-info">VSCode</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-html5-plain skill-icon"></i>
+                <h3 class="skill-info">HTML</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-css3-plain skill-icon"></i>
+                <h3 class="skill-info">CSS</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-javascript-plain skill-icon"></i>
+                <h3 class="skill-info">JavaScript</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-typescript-plain skill-icon"></i>
+                <h3 class="skill-info">TypeScript</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-python-plain skill-icon"></i>
+                <h3 class="skill-info">Python</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-ruby-plain skill-icon"></i>
+                <h3 class="skill-info">Ruby</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-bootstrap-plain skill-icon"></i>
+                <h3 class="skill-info">Bootstrap</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-github-original skill-icon"></i>
+                <h3 class="skill-info">GitHub</h3>
+            </div>
+
+            <div class="skill-item">
+                <i class="devicon-git-plain skill-icon"></i>
+                <h3 class="skill-info">Git</h3>
+            </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="title">My Projects</h2>
+
+        <div class="project-cards">
+            <div class="project-item">
+                <a href="https://github.com/Sashxjssx/VulcanTCC"><img src="documents/assets/vulcanbanner.png" alt="High School TCC" class="project-img"></a>
+                <div class="text-box">
+                    <h3 class="project-info">High School TCC</h3>
+                    <p class="project-desc">An online games store called Vulcan, where you can buy and play them.</p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <a href="https://github.com/NinjaDevs-API/NinjaDevs"><img src="documents/assets/ninjadevsbanner.png" alt="University API" class="project-img"></a>
+                <div class="text-box">
+                    <h3 class="project-info">University API</h3>
+                    <p class="project-desc">A medical liscences management and agile teams evaluator system.</p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <a href="https://github.com/Sashxjssx/Portfolio"><img src="documents/assets/portfoliobanner.png" alt="My Portfolio" class="project-img"></a>
+                <div class="text-box">
+                    <h3 class="project-info">My Portfolio</h3>
+                    <p class="project-desc">A great tool to promote myself, my projects and my work skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2 class="title">My Curriculum and Certificates</h2>
+
+        <a href="src/pages/showitems.html"><button class="btn-show">SHOW ME</button></a>
+    </section>
+
+    <section id="contact-me" class="contact-me">
+        <h2 class="title">Contact Me</h2>
+        <div class="btn-group">
+            <a href="https://github.com/Sashxjssx"><button class="btn-github"><i class="devicon-github-original"></i>GitHub</button></a>
+            <a href="https://www.linkedin.com/in/gabriel-lasaro-527827352/"><button class="btn-linkedin"><i class="devicon-linkedin-plain"></i>LinkedIn</button></a>
+        </div>
+    </section>
+
+    <footer class="footbar">
+        <p>© 2025 Gabriel Lasaro. All Rights Reserved.</p>
+        <p>Created by Gabriel Lasaro.</p>
+    </footer>
 </body>
 
 </html>
