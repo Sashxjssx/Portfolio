@@ -79,12 +79,13 @@ body {
     flex-direction: column;
 
     & .profile-photo {
-        width: 250px;
-        height: 250px;
+        width: 320px;
+        height: 320px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid var(--glass);
         box-shadow: 0 0 70px rgba(79, 70, 229, 0.65);
+        animation: fluctuate 3s ease-in-out infinite;
     }
 
     & .name {
@@ -346,4 +347,13 @@ body {
     bottom: 0;
     width: 100%;
     border-top: 1px solid var(--glass);
+}
+
+@keyframes fluctuate {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
