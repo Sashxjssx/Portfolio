@@ -23,7 +23,7 @@ html {
 body {
     background-image: url('../../documents/assets/sitebackground.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat cover;
     background-attachment: fixed;
     color: var(--light);
 }
