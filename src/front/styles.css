@@ -357,3 +357,168 @@ body {
         transform: translateY(-10px);
     }
 }
+
+/* --- Responsive Design for Mobile Devices --- */
+@media (max-width: 900px) {
+    .infos {
+        & .profile-photo {
+            width: 180px;
+            height: 180px;
+        }
+        & .name {
+            font-size: 2.2rem;
+        }
+        & .dev-info {
+            font-size: 1.1rem;
+        }
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .about-me, .my-skills, .projects, .certificates, .contact-me {
+        padding: 2.5rem 0.5rem;
+    }
+    .my-skills {
+        & .skill-cards {
+            gap: 10px;
+        }
+        & .skill-item {
+            width: 90px;
+            height: 90px;
+            font-size: 0.9rem;
+            padding: 8px;
+        }
+        & .skill-icon {
+            font-size: 30px;
+            padding: 5px 0 10px;
+        }
+    }
+    .projects {
+        & .project-cards {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+        & .project-img {
+            height: 120px;
+        }
+        & .project-info {
+            font-size: 1.1rem;
+        }
+    }
+    .certificates {
+        & .btn-show {
+            width: 90%;
+            font-size: 1.3rem;
+            height: 3.5rem;
+        }
+        & .certification-cards {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        & .certificate01, & .certificate02 {
+            width: 90vw;
+            max-width: 320px;
+            height: auto;
+        }
+    }
+    .contact-me {
+        & .btn-group {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        & .btn-github, & .btn-linkedin {
+            width: 90vw;
+            min-width: 0;
+            font-size: 1.1rem;
+            height: 3.2rem;
+            padding: 0 1.2rem;
+            justify-content: center;
+        }
+    }
+    .footbar {
+        font-size: 0.9rem;
+        padding: 1rem 0.2rem;
+    }
+    #navbar {
+        padding: 0.7rem;
+        & .menu {
+            gap: 1.2rem;
+        }
+        & .nav-link {
+            font-size: 1rem;
+            padding: 0.1rem 0.2rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .infos {
+        & .profile-photo {
+            width: 110px;
+            height: 110px;
+        }
+        & .name {
+            font-size: 1.2rem;
+        }
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .about-me, .my-skills, .projects, .certificates, .contact-me {
+        padding: 1.2rem 0.1rem;
+    }
+    .my-skills {
+        & .skill-cards {
+            gap: 4px;
+        }
+        & .skill-item {
+            width: 60px;
+            height: 60px;
+            font-size: 0.7rem;
+            padding: 3px;
+        }
+        & .skill-icon {
+            font-size: 18px;
+            padding: 2px 0 4px;
+        }
+    }
+    .projects {
+        & .project-img {
+            height: 70px;
+        }
+        & .project-info {
+            font-size: 0.8rem;
+        }
+    }
+    .certificates {
+        & .btn-show {
+            width: 98vw;
+            font-size: 0.9rem;
+            height: 2.2rem;
+        }
+        & .certificate01, & .certificate02 {
+            max-width: 98vw;
+        }
+    }
+    .contact-me {
+        & .btn-github, & .btn-linkedin {
+            font-size: 0.8rem;
+            height: 2.2rem;
+            padding: 0 0.5rem;
+        }
+    }
+    .footbar {
+        font-size: 0.7rem;
+        padding: 0.5rem 0.1rem;
+    }
+    #navbar {
+        padding: 0.3rem;
+        & .menu {
+            gap: 0.5rem;
+        }
+        & .nav-link {
+            font-size: 0.7rem;
+            padding: 0.05rem 0.1rem;
+        }
+    }
+}
